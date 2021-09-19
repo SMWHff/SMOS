@@ -42,14 +42,19 @@ dp.sh.Toolbar.Commands = {
 			if (window.clipboardData) {
 				window.clipboardData.setData('text', code);
 			} else if (document.execCommand) {
-                (function (content) {
-                    document.oncopy = function (e) {
-                        e.clipboardData.setData('text', content);
-                        e.preventDefault();
-                        document.oncopy = null;
-                    }
-                })(code);
-                document.execCommand('Copy');
+                try{
+                    (function (content) {
+                        document.oncopy = function (e) {
+                            e.clipboardData.setData('text', content);
+                            e.preventDefault();
+                            document.oncopy = null;
+                        }
+                    })(code);
+                    document.execCommand('Copy');
+                }catch{
+                    alert('\u590d\u5236\u5931\u8d25\uff01');
+                    return;
+                }
 			}
 			alert('\u4ee3\u7801\u5df2\u7ecf\u590d\u5236\u5230\u526a\u8d34\u677f\u4e2d\u3002');
 		}

@@ -7,5 +7,5 @@ git status
 git add .
 git commit -m "%file_name%"
 git push
-echo "http://cdn.jsdelivr.net/gh/SMWHff/SMOS@master/Img/%file_name%" | clip
+echo http://cdn.jsdelivr.net/gh/SMWHff/SMOS@master/Img/%file_name% | clip
 pause

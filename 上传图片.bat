@@ -1,4 +1,4 @@
-@echo on
+@echo off
 set file_path=%1
 set file_name=%~nx1
 set suffix=%~x1

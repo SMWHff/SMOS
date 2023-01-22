@@ -9,5 +9,8 @@ git commit -m "%file_name%"
 git push
 set URL=http://cdn.jsdelivr.net/gh/SMWHff/SMOS@master/Img/%file_name%
 echo|set/p=%URL%|clip
+echo.
+echo.
+echo 【图片外链】：
 echo %URL%
 pause

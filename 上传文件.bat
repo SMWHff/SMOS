@@ -1,6 +1,6 @@
 @echo off
-set file_path=%0
-set file_name=%~nx0
+set file_path=%1
+set file_name=%~nx1
 copy %file_path% "./img/%file_name%"
 cd "E:\AppData\Roaming\GitHub\smos"
 git status

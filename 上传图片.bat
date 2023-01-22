@@ -1,8 +1,8 @@
-
+@echo off
 set file_path=%1
 set file_name=%~nx1
 xcopy "%file_path%" "%~dp0\img\" /s /c /d /y
-cd "E:\AppData\Roaming\GitHub\smos"
+cd "%~dp0"
 git status
 git add .
 git commit -m "%file_name%"

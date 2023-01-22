@@ -7,5 +7,7 @@ git status
 git add .
 git commit -m "%file_name%"
 git push
-echo|set/p=http://cdn.jsdelivr.net/gh/SMWHff/SMOS@master/Img/%file_name%|clip
+URL=
+set /p URL="http://cdn.jsdelivr.net/gh/SMWHff/SMOS@master/Img/%file_name%"<nul|clip
+echo %URL%
 pause

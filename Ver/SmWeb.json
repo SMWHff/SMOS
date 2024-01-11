@@ -6,8 +6,19 @@
     "url": "更新地址",
     "type": 0, "type_": "0=不更新；1=提示更新；2=强制更新；3=打开网址；",
     "comment": "备注",
+    "advertising": [
+        {
+            "title": "标题", 
+            "text": "弹窗内容", 
+            "url": "跳转链接", 
+            "qr": "二维码", 
+            "StartDate": "生效日期", 
+            "EndDate": "失效日期", 
+            "style": "展示样式"
+        }
+    ],
     "blacklist":[
         "版本黑名单"
-    ]
+    ],
     "openurl": ""
 }

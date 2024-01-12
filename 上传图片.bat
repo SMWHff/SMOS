@@ -28,4 +28,5 @@ echo °æÕº∆¨Õ‚¡¥°ø£∫
 echo %URL%
 echo.
 echo.
+explorer https://purge.jsdelivr.net/gh/SMWHff/SMOS@master/
 pause

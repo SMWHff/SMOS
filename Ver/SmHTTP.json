@@ -1,0 +1,24 @@
+{
+    "name": "神梦HTTP请求插件",
+    "ver": "1.0",
+    "desc": "支持GET、POST、HEAD等HTTP协议请求；支持构造请求协议头、请求Cookies；支持构造各种类型请求体（url、form、json）；支持解析JSON响应。",
+    "updates": "更新公告",
+    "url": "更新地址",
+    "type": 0, "type_": "0=不更新；1=提示更新；2=强制更新；3=打开网址；",
+    "comment": "备注",
+    "advertising": [
+        {
+            "title": "标题", 
+            "text": "弹窗内容", 
+            "url": "跳转链接", 
+            "qr": "二维码", 
+            "StartDate": "生效日期", 
+            "EndDate": "失效日期", 
+            "style": "展示样式"
+        }
+    ],
+    "blacklist":[
+        "版本黑名单"
+    ],
+    "openurl": "https://github.com/SMWHff/SmHTTP.dll"
+}
